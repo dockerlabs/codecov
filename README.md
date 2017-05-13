@@ -6,7 +6,7 @@
 ### Quickstart
 
 ```sh
-sudo docker run -it --rm \
+docker run -it --rm \
     --env CODECOV_TOKEN=mytoken \
     --volume $(PWD):/coverage \
     mongkok/coverage
