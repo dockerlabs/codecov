@@ -3,4 +3,4 @@ FROM python
 WORKDIR /coverage
 RUN pip install codecov
 
-CMD ["codecov", "-t", "$CODECOV_TOKEN"]
+ENTRYPOINT codecov -t "$CODECOV_TOKEN"
