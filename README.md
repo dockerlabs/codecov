@@ -8,6 +8,6 @@
 ```sh
 docker run -it --rm \
     --env CODECOV_TOKEN=mytoken \
-    --volume $(PWD):/coverage \
+    --volume $(PWD):/src \
     mongkok/coverage
 ```
